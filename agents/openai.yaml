@@ -1,0 +1,6 @@
+interface:
+  display_name: "Lollipop 面试报告"
+  short_description: "复用本机登录，直接读取 Lollipop 面试报告和每题原文参考答案"
+  default_prompt: "使用 $lollipop 读取这个 Lollipop 报告，提取每题原文参考答案并核对完整性。"
+policy:
+  allow_implicit_invocation: true
